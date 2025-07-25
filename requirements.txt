@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+aiokafka
+redis
+pydantic[email]
+pydantic-settings
+python-dotenv
+alembic
+asyncpg
+kafka-python
+
+# Testing
+pytest
+pytest-asyncio
+httpx 

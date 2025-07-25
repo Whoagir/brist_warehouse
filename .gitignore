@@ -1,0 +1,49 @@
+# Игнорирование системных файлов
+.DS_Store
+Thumbs.db
+
+# Игнорирование директорий с кэшем Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Игнорирование директорий виртуальных окружений
+.venv
+venv/
+env/
+ENV/
+
+# Игнорирование файлов IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Игнорирование файлов зависимостей и сборки
+*.egg-info
+build/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+
+# Игнорирование файлов pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Игнорирование лог-файлов
+*.log
+logs/
+
+# Игнорирование локальных файлов конфигурации 
+.env
+app.env
+
+
